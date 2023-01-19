@@ -1,0 +1,421 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+header{
+    background-color: #EAC926;
+    padding: 20px;
+    width: 100vw;
+    margin: auto;
+}
+
+.container-header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+}
+
+.logo {
+    width: 50%;
+}
+
+.buscador {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.buscador-input {
+    border: solid 1px lightgray;
+    display: block;
+    width: 50%;
+    padding: 7px 30px 7px 7px;
+    border-radius: 5px;
+    height: 25px;
+    font-size: 1em;
+}
+
+.destacado {
+    font-family: roboto;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    font-weight: 400;
+}
+
+.listas {
+    display:none;
+}
+
+.listas ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.listas a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+.burger-menu {
+    display: inline-block;
+    background-color: #1259c3;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.hambContenedor {
+    text-align: center;
+}
+
+.banner {
+    width: 100vw;
+    text-align: center;
+    margin: auto;
+}
+
+main {
+    background-color: #ebebeb;
+}
+
+.container-main {
+    max-width: 1200px;
+    width: 90%;
+    padding: 15px;
+    margin: auto;
+    margin-top: -4px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulares {
+    font-size: 24px;
+    color: #666;
+    width: 95%;
+}
+
+.sub-main{
+    display: block;
+    background-color: white;
+    border: solid #ebebeb 1px;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    transition: all 450ms;
+    padding: 10px 10px 10px 10px;
+
+    
+}
+
+.products {
+    width: 100%;
+    border-bottom: solid #ebebeb 1px;
+    margin: auto;
+    border-radius: 10px;
+    transition: all 450ms;
+}
+
+.sub-main-descripcion {
+    position: relative;
+    padding: 0 5px 0 5px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+}
+
+.sub-sub-main {
+    display: flex;
+    margin-top: 20px;
+}
+
+.precios {
+    font-size: 18px;
+    width: 30%;
+}
+
+.descuentos {
+    font-size: 16px;
+    color: #39b54a;
+    width: 70%;
+    text-align: center;
+}
+
+.descripcion {
+    display: none;
+    font-size: 16px;
+    margin-bottom: 15px;
+    color:#666;
+    transition: all 450ms;
+    width: 100%;
+}
+
+.fa-truck {
+    display: block;
+    font-size: 16px;
+    color:#39b54a;
+    border: solid 1px #39b54a;
+    padding: 5px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    right: 20px;
+    top: -33px;
+    transition: all 450ms;
+}
+
+footer{
+    background-color: white;
+    width: 100%;
+    max-width: 1200px;
+    margin:auto;
+}
+
+.info-footer {
+    text-align: center;
+    padding: 0 10px;
+}
+
+.info-footer h2 {
+    margin-top: 0px;
+    margin-bottom: -10px;
+}
+
+.cuerpos-de-texto {
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}
+
+.fa-credit-card{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3;
+    display: block;
+    text-align: center;
+    transition: all 450ms;
+}
+
+.fa-gift {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3;
+    display: block;
+    text-align: center;
+    transition: all 450ms;
+}
+
+.fa-user-shield {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3;
+    display: block;
+    text-align: center;
+    transition: all 450ms;
+}
+
+.copyright {
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.container-form {
+    background-color: lightgray;
+    padding: 5%;
+}
+
+.formulario{
+    padding: 45px 15px;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.control-formulario{
+    margin-bottom: 30px;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.control-formulario h3 {
+    margin: -22.5px 0 22.5px;
+    padding-top: 10px;
+    display:block;
+    text-align: left;
+}
+
+.control{
+    width: 88.5%;
+    padding: 8px;
+    border-radius: 5px;
+    border: solid 1px lightgray;
+}
+
+.radio{
+    margin-left: 25px;
+}
+
+.radio input{
+    margin-right: 25px;
+}
+
+.check{
+    margin-left: 25px;
+}
+
+.check input{
+    margin: 0 25px 40px 0;
+}
+
+.boton-formulario:hover {
+    background-color: #0022AA;
+}
+.boton-formulario{
+    width: 25%;
+    background-color: #1259c3;
+    border:none;
+    font-size: 20px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: all 450ms;
+}
+
+@media (min-width: 361px) {
+    
+    .burger-menu {
+    display: none;
+    }
+
+    .container-header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 40%;
+    }
+
+    .sub-main{
+        width: 50%;
+    }
+
+    .destacado {
+        text-align: center;
+        width: 30%;
+        font-size: 11px;
+    }
+
+    .buscador {
+        display:flex;
+        align-items: center;
+        width: 30%;
+    }
+
+    .buscador-input {
+        font-size: 1em;
+    }
+
+    .listas {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+
+    .listas ul {
+        display: flex;
+    }
+
+    .listas li {
+        margin: 0 5px;
+        font-size: 11px;
+    }
+
+    .listas a {
+        font-size: 11px;
+    }
+
+    .sub-main{
+        width: 45%;
+    }
+
+    .sub-main:hover{
+        box-shadow: 10px 10px rgb(100, 100, 100);
+    }
+
+    .sub-main:hover, .descripcion{
+        display: block;
+    }
+
+    .fa-truck:hover{
+        transform: rotate(-90deg);
+    }
+
+}
+
+@media (min-width: 769px){
+    .logo{
+        width: 250px;
+    }
+
+    .container-header, .listas {
+        max-width: 1200px;
+        margin:auto;
+    }
+    .container-header{
+        align-items: center;
+    }
+
+    .sub-main{
+        width: 20%;
+    }
+
+    .destacado{
+        font-size: 18px;
+    }
+
+    .listas{
+        margin-top: 30px;
+    }
+
+    .listas li{
+        margin: 0px 10px;
+        font-size: 19px;
+    }
+    
+    .listas a {
+        font-size: 19px;;
+    }
+
+    .container-footer{
+        display: flex;
+    }
+
+    .fa-credit-card:hover, .fa-gift:hover, .fa-user-shield:hover{
+        color: #0022AA;
+    }
+
+}
